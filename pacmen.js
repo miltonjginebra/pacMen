@@ -56,7 +56,6 @@ function update() {
 }
 
 function update_mouth() {
-  // loop over pacmen array and move each one and move image in DOM
   pacMen.forEach((item) => {
     if (item.newimg.src.indexOf("PacMan1.png") != -1) {
       item.newimg.src = "./images/PacMan2.png";
